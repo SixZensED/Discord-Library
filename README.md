@@ -14,7 +14,7 @@ Add Functions
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
 ```
-# Create UI Library Window
+## Create UI Library Window
 ```lua
 local main = Library:create({
 	Name = "Xova's Team"
