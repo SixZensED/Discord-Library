@@ -56,3 +56,53 @@ page:Button({
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
 ```
+# Create Toggle
+```lua
+page:Toggle({
+	Title = "Toggle By Xova's Team",
+	Default = true,
+	callback = function(v)
+		print(v)
+	end,
+})
+```
+# Create SelectChoice
+```lua
+page:SelectChoice({
+	Item = {"Dark","Sun"},
+	Default = "Sun",
+	callback = function(v)
+		print(v)
+	end,
+})
+```
+# Create Dropdown
+```lua
+b = page:Dropdown({
+	Title = "Dropdown",
+	Item = {1,2,3,4,5},
+	Default = 1,
+	callback = function(v)
+		print(v)
+	end,
+})
+-- Functions
+-- b:Add(math.random(0,555))
+-- b:Clear()
+```
+# Create Slider
+```lua
+c = page:Slider({
+	Title = "Slider",
+	Min = 0,
+	Max = 500,
+	Default = 10,
+	Dec = true,
+	callback = function(v)
+		print(v)
+	end,
+	
+})
+-- Functions
+-- c:Update(50)
+```
