@@ -12,5 +12,5 @@ Add Functions
 ```
 # Loadstring
 ```lua
-
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
 ```
