@@ -20,23 +20,23 @@ local main = Library:create({
 	Name = "Xova's Team"
 })
 ```
-# Create Tab
+## Create Tab
 ```lua
 local tab = main:createtab({
 	Name = "Tab"
 })
 ```
-# Create Section
+## Create Section
 ```lua
 local section = tab:createsection({
 Name = "Section"
 })
 ```
-# Create Page
+## Create Page
 ```lua
 local page = section:createpage()
 ```
-# Create Label
+## Create Label
 ```lua
 a = page:Label({
 	Title = "Xova's Team",
@@ -44,7 +44,7 @@ a = page:Label({
 -- Functions
 -- a:Update("Xova's Team Best UI")
 ```
-# Create Button
+## Create Button
 ```lua
 page:Button({
 	Title = "Refresh Label",
@@ -56,7 +56,7 @@ page:Button({
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
 ```
-# Create Toggle
+## Create Toggle
 ```lua
 page:Toggle({
 	Title = "Toggle By Xova's Team",
@@ -66,7 +66,7 @@ page:Toggle({
 	end,
 })
 ```
-# Create SelectChoice
+## Create SelectChoice
 ```lua
 page:SelectChoice({
 	Item = {"Dark","Sun"},
@@ -76,7 +76,7 @@ page:SelectChoice({
 	end,
 })
 ```
-# Create Dropdown
+## Create Dropdown
 ```lua
 b = page:Dropdown({
 	Title = "Dropdown",
@@ -90,7 +90,7 @@ b = page:Dropdown({
 -- b:Add(math.random(0,555))
 -- b:Clear()
 ```
-# Create Slider
+## Create Slider
 ```lua
 c = page:Slider({
 	Title = "Slider",
