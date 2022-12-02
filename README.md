@@ -3,15 +3,19 @@
 All Update this Show here.
 
 Add Functions
-+ Label [ Can Refresh ]
-+ Toggle [ Can Set Defualt]
-+ Dropdown [ Can Clear , Add ]
-+ Button [ Add Mode(Theme) , Auto Size ]
-+ Slider [ Can Update ]
-+ Select Choice [ Can Set Defualt ]
++ Line
++ Modal
++ KeyBind Toggle UI
 ```
-# Loadstring
+# Loadstring & Toggle UI
 ```lua
+
+_G.Settings = {
+	UI = {
+		Key = Enum.KeyCode.RightControl,
+	}
+}
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
 ```
 ## Create UI Library Window
@@ -105,4 +109,14 @@ c = page:Slider({
 })
 -- Functions
 -- c:Update(50)
+```
+## Create Line
+```lua
+page:Line()
+```
+## Create Modal
+```lua
+page:Modal({
+	Title = "Modal"
+})
 ```
